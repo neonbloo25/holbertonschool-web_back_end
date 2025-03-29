@@ -1,0 +1,6 @@
+ES6_basic/node_modules/.bin/*
+ES6_basic/node_modules/*
+ES6_basic/.eslintrc.js
+ES6_basic/eslint.config.js
+ES6_basic/babel.conflig.js
+ES6_basic/package.json
