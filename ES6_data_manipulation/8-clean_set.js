@@ -1,5 +1,5 @@
 // 8-clean_set.js
-function cleanSet(set, startString) {
+function cleanSet(set, startString = '') {
   // Step 1: Initialize an empty array to store the results
   const result = [];
 
