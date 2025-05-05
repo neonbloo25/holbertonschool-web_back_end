@@ -10,3 +10,4 @@ ES6_basic/nodesource_setup.sh
 *main.py
 __pycache__
 python_async_function/py37async
+NoSQL/mongodb-org-8.0.list
