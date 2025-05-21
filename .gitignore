@@ -11,3 +11,9 @@ ES6_basic/nodesource_setup.sh
 __pycache__
 python_async_function/py37async
 NoSQL/mongodb-org-8.0.list
+node_modules/
+Node_JS_basic/.eslintrc.js
+Node_JS_basic/babel.config.js
+Node_JS_basic/database.csv
+Node_JS_basic/package-lock.json
+Node_JS_basic/package.json
