@@ -9,8 +9,8 @@ function countStudents(path) {
         return;
       }
 
-      const lines = content.split('\n').filter(line => line.trim() !== '');
-      const students = lines.slice(1).map(line => line.split(','));
+      const lines = content.split('\n').filter((line) => line.trim() !== '');
+      const students = lines.slice(1).map((line) => line.split(','));
       const total = students.length;
       const fields = {};
 
@@ -39,7 +39,7 @@ const app = http.createServer((req, res) => {
     res.end('Hello Holberton School!');
   } else if (req.url === '/students') {
     countStudents(path)
-      .then(data => {
+      .then((data) => {
         res.end(`This is the list of our students\n${data}`);
       })
       .catch(() => {
